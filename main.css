@@ -1,0 +1,23 @@
+body {
+    background: white;
+}
+
+.top {
+    background-color: lightblue;
+}
+
+.card {
+    border: 1px solid black;
+}
+
+h2 {
+    color: blue;
+}
+
+button {
+    background-color: lightblue;
+}
+
+#message {
+    color: red;
+}
