@@ -7,37 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Ai Morishita">
     <meta name="keywords" content="html, css, javascript">
-    <link rel="stylesheet" href="css/style.css">
-    <title>自己紹介ホームページ</title>
+    <title>My Hobby</title>
+    <link rel = "stylesheet" href="main.css">
 </head>
 
 <body>
-    <div class="container">
+    <header>
+        <h1>My Hobby</h1>
+        <p>すきなことを紹介します</p>
+    </header>
 
+    <main>
+        <div class = "card">
+            <h2>音楽鑑賞</h2>
+            <p>音楽を聞きながら準備をするのがすきです。
+                特に好きなのは２０００年代の曲です。
+            </p>
+        </div>
 
-        <header>
-            <h1>ホーム（自己紹介）</h1>
+        <div class = "card">
+            <h2>スヌーピーのグッズ集め</h2>
+            <p>スヌーピーが好きで、かわいいグッズを見つけると集めています。</p>
+        </div>
 
-        </header>
-        <nav>
-            <a href="home.html">ホーム</a>
-            <a href="profile.html">自己紹介</a>
-            <a href="hobby.html">趣味</a>
-        </nav>
+        <button onclick = "message()">今日の一言を見る</button>
 
-        <main>
-            <section>
-                <h2>ホーム</h2>
-                <p>このウェブサイトでは、私の自己紹介をまとめています。</p>
-            </section>
+        <p id = "message"></p>
 
-        </main>
+    </main>
 
-        <footer>
-            copyright &copy; Ai Morishita, All Rights Reserved.
-        </footer>
-
-    </div>
+    <footer>
+        copyright &copy; Ai Morishita, All Rights Reserved.
+    </footer>
 
 </body>
 
